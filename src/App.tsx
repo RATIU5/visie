@@ -3,7 +3,7 @@ import { Component } from "solid-js";
 const App: Component = () => {
   return (
     <div>
-      <h1>hello world</h1>
+      <canvas>Canvas is not supported in your browser.</canvas>
     </div>
   );
 };
