@@ -5,7 +5,7 @@ type CanvasProps = {
 };
 
 const Canvas: Component<CanvasProps> = (props) => {
-  return <canvas ref={props.ref} width="256" height="256" />;
+  return <canvas ref={props.ref} class="w-screen h-screen" />;
 };
 
 export default Canvas;
